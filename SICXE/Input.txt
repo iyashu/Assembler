@@ -1,0 +1,11 @@
+      COPY     START         0
+     FIRST       STL    RETADR    
+                 LDA     ALPHA    
+                 ADD      BETA    
+                STA      GAMA    
+                   J   @RETADR    
+     ALPHA      WORD         3    
+      BETA      WORD         7    
+      GAMA      RESW         1
+    RETADR      RESW         1
+                     END     FIRST

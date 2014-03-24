@@ -1,0 +1,11 @@
+          1       0000       COPY      START          0           
+          2       0000      FIRST        STL     RETADR     172015
+          3       0003                   LDA      ALPHA     032009
+          4       0006                   ADD       BETA     1B2009
+          5       0009                   STA       GAMA     0F2009
+          6       000C                     J     RETADR     3E2009
+          7       000F      ALPHA       WORD          3     000003
+          8       0012       BETA       WORD          7     000007
+          9       0015       GAMA       RESW          1           
+         10       0018     RETADR       RESW          1           
+         11       001B                   END      FIRST           
